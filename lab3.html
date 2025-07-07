@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Shop Dashboard</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h2>Online Shop Admin Dashboard</h2>
+    <p>Welcome to the admin dashboard of our shopping platform</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Customers</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="dashboard">
+      <h3>Dashboard Overview</h3>
+      Here you can see a quick overview of the store performance.
+    </section>
+    <section id="orders">
+      <h3>Recent Orders</h3>
+
+      <table>
+        <th>Order Id</th>
+        <th>Customer</th>
+        <th>Amount</th>
+        <tr>
+          <td>1001</td>
+          <td>Alice</td>
+          <td>$250</td>
+        </tr>
+        <tr>
+          <td>1002</td>
+          <td>Bob</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>1003</td>
+          <td>Charlie</td>
+          <td>$350</td>
+        </tr>
+      </table>
+    </section>
+    <section id="products">
+      <h3>Products List</h3>
+      <ul>
+        <li>Wireless Mouse</li>
+        <li>Bluetooth Headphone</li>
+        <li>USB C-type Charger</li>
+        <li>Laptop stand</li>
+        <li>External Hard Drive</li>
+      </ul>
+    </section>
+    <section id="media">
+      <h2>Product Media</h2>
+      <div>
+        <img
+          tabindex="1"
+          alt="keyboard"
+          src="./images/keyboard.jpg"
+          width="500px"
+          height="500px"
+        />
+      </div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3i1OB6wKYms?si=aGgOuLsb_7AJE_o8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form name="contact-form">
+        <label>Name: </label><br /><br /><input type="text" /> <br /><br />
+        <label>Email : </label><br /><br /><input type="email" /> <br /><br />
+        <label>Message: </label><br /><br />
+        <textarea cols="30" rows="4" placeholder="Enter messsage.."></textarea>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <hr />
+  <footer>
+    <p>&copy;2025 Online Shop.All rights reserved</p>
+    <p>For further details , contact us at abcd@gmail.com</p>
+  </footer>
+</body>
